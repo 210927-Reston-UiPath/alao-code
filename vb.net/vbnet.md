@@ -24,3 +24,12 @@
     - This is accomplished by: data wrapping (encaps via packing) and data hiding(acces mods)
 
 ## Programing with VB
+- No semi colons
+- case insensitive 
+
+### Methods in VB
+
+- 2 types of methods: sub and functions
+- Subs return void 
+- Function return something
+- both of these execute some logic when you on them 
