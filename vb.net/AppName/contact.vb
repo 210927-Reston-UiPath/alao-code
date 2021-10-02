@@ -5,6 +5,11 @@ Class Contact
         Me.Name = name
         Me.PhoneNumber = number
     end sub
+
+    Public sub new()
+    'parameterless constructor
+    end sub
+
     Overrides Function Tostring() as String
         return $"Name: {Me.Name} Number: {Me.PhoneNumber}"
     End Function
