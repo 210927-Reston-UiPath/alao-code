@@ -49,7 +49,7 @@ Class MainMenu
     End Sub
     Function getcontactfromfile() As list(of contact)
         Try
-            jsonstring = file.ReadAllText(filename, jsonstring)
+            jsonstring = file.ReadAllText(filename)
             return jsonserializer.deserialize(of list(of contact))(jsonstring)
         Catch ex As Exception
             return new list(of contact)
