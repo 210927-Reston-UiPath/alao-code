@@ -20,7 +20,7 @@ class calculation
                     Subjact = console.Readline()
                 Case "d"
                     Console.WriteLine("Calculating the GPA.")
-
+                    'need to add calculation function
                     repeat = False 
             End Select
         loop
